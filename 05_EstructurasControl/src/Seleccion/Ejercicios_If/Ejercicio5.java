@@ -1,0 +1,19 @@
+package Seleccion.Ejercicios_If;
+
+// Ejercicio 1: Comparar dos números e indicar si el primero es mayor que el segundo
+import java.util.Scanner;
+public class Ejercicio5 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Introduce numero 1");
+        int numero1 = scanner.nextInt();
+        System.out.println("Introduce numero 2");
+        int numero2 = scanner.nextInt();
+
+        if (numero1 > numero2){
+            System.out.println("El primero es mayor que el segundo");
+        } else {
+            System.out.println("El primero no es mayor que el segundo");
+        }
+    }
+}
