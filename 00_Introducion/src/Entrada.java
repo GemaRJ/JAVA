@@ -3,13 +3,24 @@
 
 import java.util.Scanner; // Importamos Scanner para leer por consola
 
-public class Entrada{
+public class Entrada {
 
     public static void main(String[] args) {
 
-        // ------------------------------
+        /*
+         * INTRODUCCIÓN A JAVA:
+         * Java es un lenguaje de programación de propósito general, orientado a objetos,
+         * multiplataforma y tipado fuerte. Esto significa que cada variable debe declarar
+         * explícitamente su tipo y no puede cambiarlo durante la ejecución.
+         *
+         * Características principales:
+         * - Orientación a objetos
+         * - Tipado fuerte y estático
+         * - Portabilidad gracias a la JVM (Java Virtual Machine)
+         * - Gestión automática de memoria mediante garbage collector
+         */
+
         // EJEMPLO DE VARIABLES
-        // ------------------------------
 
         // Tipos de datos básicos
         String texto = "Soy un dato tipo String";
@@ -49,3 +60,4 @@ public class Entrada{
         scanner.close();
     }
 }
+
